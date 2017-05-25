@@ -1,0 +1,30 @@
+.bg--light-blue {
+  background: #639fcc; }
+
+.footer {
+  padding: 2rem; }
+  .footer__title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: capitalize; }
+  .footer__col {
+    padding-bottom: .5rem;
+    font-family: Arial;
+    font-size: 1.1rem;
+    line-height: 1.3; }
+    .footer__col a:link {
+      color: #000;
+      text-decoration: none; }
+    .footer__col a:visited {
+      color: #3d1818;
+      text-decoration: none; }
+    .footer__col a:hover {
+      color: #3d1818;
+      text-decoration: none; }
+    .footer__col a:active {
+      color: #fff;
+      text-decoration: none; }

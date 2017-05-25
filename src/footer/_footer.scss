@@ -1,0 +1,48 @@
+.bg--light-blue {
+  background: lighten($blue, 10);
+}
+
+.footer {
+  padding: 2rem;
+
+  &__title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: $font-main;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: capitalize;;
+  }
+
+  &__col {
+    padding-bottom: .5rem;
+    font-family: $font-main;
+    font-size: 1.1rem;
+    line-height: 1.3;
+
+    // unvisited link
+    a:link {
+      color: $a-link-color;
+      text-decoration: $a-link-text-dec;
+    }
+
+    // visited link
+    a:visited {
+      color: $a-visited-color;
+      text-decoration: $a-link-text-dec;
+    }
+
+    // mouse over link
+    a:hover {
+      color: $a-hover-color;
+      text-decoration: $a-hover-text-dec;
+    }
+
+    // selected link
+    a:active {
+      color: $a-active-color;
+      text-decoration: $a-hover-text-dec;
+    }
+  }
+}
