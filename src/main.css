@@ -28,3 +28,27 @@
     .footer__col a:active {
       color: #fff;
       text-decoration: none; }
+  .footer__item-icon--address::before {
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: '\f041'; }
+  .footer__item-icon--email::before {
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: '\f2b6'; }
+  .footer__item-icon--phone::before {
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: '\f095'; }
+
+.list-unstyled {
+  list-style: none; }
+  .list-unstyled--fa-icons {
+    margin: 0;
+    padding: 0; }
+    .list-unstyled--fa-icons li {
+      padding-left: 1.75rem; }
+    .list-unstyled--fa-icons li::before {
+      display: inline-block;
+      width: 1.75rem;
+      margin-left: -1.75rem; }

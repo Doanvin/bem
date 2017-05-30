@@ -45,4 +45,43 @@
       text-decoration: $a-hover-text-dec;
     }
   }
+
+  &__item-icon {
+    &--address::before {
+      font-family: FontAwesome;
+      font-size: $icon-font-size;
+      content: '\f041';
+    }
+
+    &--email::before {
+      font-family: FontAwesome;
+      font-size: $icon-font-size;
+      content: '\f2b6';
+    }
+
+    &--phone::before {
+      font-family: FontAwesome;
+      font-size: $icon-font-size;
+      content: '\f095';
+    }
+  }
+}
+
+.list-unstyled {
+  list-style: none;
+
+  &--fa-icons {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-left: $list-p-w-m;
+    }
+
+    li::before {
+      display: inline-block;
+      width: $list-p-w-m;
+      margin-left: -$list-p-w-m;
+    }
+  }
 }
