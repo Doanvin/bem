@@ -86,3 +86,13 @@ $p-font-sizes: (
     font-size: $fs-font-size;
   }
 }
+
+// Set the text color automatically based on the background color
+// To use,   color: set-text-color(pass-in-bg-color);
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) > 50) {
+    @return $text-color-light-bg; // Lighter backgorund, return dark color
+  } @else {
+    @return $text-color-dark-bg; // Darker background, return light color
+  }
+}

@@ -1,9 +1,10 @@
 .bg--light-blue {
-  background: lighten($blue, 10);
+  background: $light-blue;
 }
 
 .footer {
   padding: 2rem;
+  color: set-text-color($light-blue);
 
   &__title {
     padding-top: 1rem;
@@ -12,7 +13,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.5;
-    text-transform: capitalize;;
+    text-transform: capitalize;
   }
 
   &__col {
@@ -24,12 +25,6 @@
     // unvisited link
     a:link {
       color: $a-link-color;
-      text-decoration: $a-link-text-dec;
-    }
-
-    // visited link
-    a:visited {
-      color: $a-visited-color;
       text-decoration: $a-link-text-dec;
     }
 

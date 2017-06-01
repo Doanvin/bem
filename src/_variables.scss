@@ -1,5 +1,13 @@
+// DESCRIPTIVE VARIABLES
 // Generic Color List | Change to Match Sites Style
-$blue: #3e87be;
+$blue: #1f9cfa;
+$light-blue: lighten($blue, 10);
+
+// FUNCTIONAL VARIABLES
+// Text Colors
+$text-color-light-bg: #000;
+$text-color-dark-bg: #fff;
+$text-color-attention: #1f9cfa;
 
 // A Hover | Link Style
 $a-link-color: #000;
